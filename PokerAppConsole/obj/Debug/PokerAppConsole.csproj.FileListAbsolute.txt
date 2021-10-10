@@ -1,0 +1,7 @@
+C:\Users\Jeffr\Documents\projecten\PokerApplication\PokerAppConsole\PokerAppConsole\bin\Debug\PokerAppConsole.exe.config
+C:\Users\Jeffr\Documents\projecten\PokerApplication\PokerAppConsole\PokerAppConsole\bin\Debug\PokerAppConsole.exe
+C:\Users\Jeffr\Documents\projecten\PokerApplication\PokerAppConsole\PokerAppConsole\bin\Debug\PokerAppConsole.pdb
+C:\Users\Jeffr\Documents\projecten\PokerApplication\PokerAppConsole\PokerAppConsole\obj\Debug\PokerAppConsole.csproj.AssemblyReference.cache
+C:\Users\Jeffr\Documents\projecten\PokerApplication\PokerAppConsole\PokerAppConsole\obj\Debug\PokerAppConsole.csproj.CoreCompileInputs.cache
+C:\Users\Jeffr\Documents\projecten\PokerApplication\PokerAppConsole\PokerAppConsole\obj\Debug\PokerAppConsole.exe
+C:\Users\Jeffr\Documents\projecten\PokerApplication\PokerAppConsole\PokerAppConsole\obj\Debug\PokerAppConsole.pdb
