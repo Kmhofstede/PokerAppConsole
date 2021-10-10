@@ -16,25 +16,24 @@ namespace PokerAppConsole.Classes
         {
             SetupGame();
             
-            //RunGame();
+            RunGame();
 
             //CheckWinner();
         }
 
         private void SetupGame()
         {
-            Player1 = new Player();
-            Player2 = new Player();
-
+            Player1 = new Player("Player1");
+            Player2 = new Player("Player2");
             Player1.ShuffleDeck();
             Player2.ShuffleDeck();
-
             Console.WriteLine("Decks are shuffled!");
         }
 
         public void RunGame()
         {
-            
+            Player1.DrawCards();
+            Player2.DrawCards();
         }
 
         public void CheckWinner()

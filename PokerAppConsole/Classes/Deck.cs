@@ -36,9 +36,11 @@ namespace PokerAppWeb.Classes
             this.Cards.Shuffle();
         }
 
-        public void DrawCard()
+        public Card DrawCard()
         {
-
+            var card = this.Cards.FirstOrDefault();
+            this.Cards.RemoveAt(0);
+            return card;
         }
 
     }
