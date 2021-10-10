@@ -1,10 +1,11 @@
-﻿using PokerAppWeb.Classes.Enums;
+﻿using PokerAppConsole.Classes.enums;
+using PokerAppConsole.Classes.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PokerAppWeb.Classes
+namespace PokerAppConsole.Classes
 {
     public class Card
     {

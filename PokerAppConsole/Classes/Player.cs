@@ -1,14 +1,17 @@
-﻿using System;
+﻿using PokerAppConsole.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PokerAppWeb.Classes
+namespace PokerAppConsole.Classes
 {
     public class Player
     {
         public string Name;
         public Deck PlayerDeck { get; set; }
+
+        public Hand PlayerHand { get; set; }
         public List<Card> Hand { get; set; }
 
         const int maxCards = 5;
@@ -19,6 +22,7 @@ namespace PokerAppWeb.Classes
             this.Name = name;
             this.PlayerDeck = new Deck();
             this.Hand = new List<Card>();
+            this.PlayerHand = new Hand();
         }
         
 
@@ -29,12 +33,18 @@ namespace PokerAppWeb.Classes
 
         public void DrawCards()
         {
-            for(int i = 0; i < maxCards; i++)
+            PlayerHand = new Hand();
+            for (int i = 0; i < maxCards; i++)
             {
                 var card = PlayerDeck.DrawCard();
-                Hand.Add(card);
+                this.PlayerHand.AddCard(card);
                 Console.WriteLine(this.Name + " draws: " + card);
             }
+        }
+
+        public void CheckHand()
+        {
+            PlayerHand.CheckHand();
         }
     }
 }

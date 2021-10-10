@@ -47,7 +47,9 @@
     <Compile Include="Classes\Deck.cs" />
     <Compile Include="Classes\Enums\CardType.cs" />
     <Compile Include="Classes\Enums\CardValue.cs" />
+    <Compile Include="Classes\Enums\PokerHand.cs" />
     <Compile Include="Classes\Game.cs" />
+    <Compile Include="Classes\Hand.cs" />
     <Compile Include="Classes\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

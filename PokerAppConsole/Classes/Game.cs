@@ -1,4 +1,4 @@
-﻿using PokerAppWeb.Classes;
+﻿using PokerAppConsole.Providers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,27 +18,27 @@ namespace PokerAppConsole.Classes
             
             RunGame();
 
-            //CheckWinner();
+            CheckWinner();
         }
 
         private void SetupGame()
         {
             Player1 = new Player("Player1");
-            Player2 = new Player("Player2");
+            //Player2 = new Player("Player2");
             Player1.ShuffleDeck();
-            Player2.ShuffleDeck();
+            //Player2.ShuffleDeck();
             Console.WriteLine("Decks are shuffled!");
         }
 
         public void RunGame()
         {
             Player1.DrawCards();
-            Player2.DrawCards();
+            //Player2.DrawCards();
         }
 
         public void CheckWinner()
         {
-
+            Player1.CheckHand();
         }
     }
 }

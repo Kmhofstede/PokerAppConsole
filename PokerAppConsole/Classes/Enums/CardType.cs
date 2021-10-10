@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PokerAppWeb.Classes
+namespace PokerAppConsole.Classes.enums
 {
     public enum CardType
     {
